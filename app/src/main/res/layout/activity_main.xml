@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_margin_vertical"
+    android:layout_marginBottom="@dimen/activity_margin_vertical"
+    android:layout_marginLeft="@dimen/activity_margin_horizontal"
+    android:layout_marginRight="@dimen/activity_margin_horizontal"
+    tools:context="com.coba.ginanjar_1202150068_modul4.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        android:text="Belajar Thread"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="List Nama"
+        android:id="@+id/ListNama"
+        android:layout_below="@id/title"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginBottom="20dp"
+        android:onClick="ListNama"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="View Image"
+        android:id="@+id/ViewImage"
+        android:layout_below="@id/ListNama"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="ImageFinding"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GINANJAR_1202150068_MODUL4</string>
+    <string name="link_gambar">https://developer.android.com/images/brand/Android_Robot_200.png</string>
+    <string-array name="names">
+        <item>Andi</item>
+        <item>Adi</item>
+        <item>Alex</item>
+        <item>Ergon</item>
+        <item>Ipat</item>
+        <item>Hakim</item>
+        <item>Ujang</item>
+        <item>Yuzar</item>
+        <item>Wirasandi</item>
+        <item>Budi</item>
+        <item>Jerry</item>
+        <item>Rommy</item>
+        <item>Hidayat</item>
+        <item>Ahmad</item>
+        <item>Hisam</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coba.ginanjar_1202150068_modul4.ListNama">
+
+    <TextView
+        android:id="@+id/tv_list_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        android:text="List Nama Mahasiswa"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btn_start_asyntask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai Asynctask"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+    <ListView
+        android:id="@+id/list_nama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp" />
+    <ProgressBar
+        android:id="@+id/pb_load_name"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
